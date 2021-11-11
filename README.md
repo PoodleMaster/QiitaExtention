@@ -1,6 +1,6 @@
 # QiitaExtention
-Qiita(https://qiita.com/PoodleMaster)からURL、記事題名、LGTMを取得し、一覧化します。
-詳細は👉 [ここ](https://qiita.com/PoodleMaster/items/77077ebc80c6f16eb4db)参照。
+Qiita( https://qiita.com/PoodleMaster )からURL、記事題名、LGTMを取得し、一覧化します。
+詳細は👉 [ここのQiita記事](https://qiita.com/PoodleMaster/items/77077ebc80c6f16eb4db)を参照してください。
 
 # ➊ インストール
 それでは、拡張ツールをインストールしていきます。このツールは「[`Chromeウェブストア`](https://chrome.google.com/webstore/category/extensions?hl=ja)」には公開はしていませんので、**ブラウザの拡張機能をデベロッパーモードからインストールする必要があります**。
