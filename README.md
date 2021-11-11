@@ -32,14 +32,14 @@
 1. ブラウザの右上にあるパズル[`🧩`]のようなアイコンをクリックすると、メニューが表示されます。
 1. メニューの中に「**Qiita情報収集**」というのがあるので、これをピン留め[`📌`]して固定するとブラウザ上部に拡張機能のアイコンが表示されます。
 
-<img width="300" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/405376/ca08f9cd-e563-2ed6-7440-5344ef15a429.png">
+<img width="300" src="https://user-images.githubusercontent.com/69660581/141272962-34e6bd9a-e6ce-46eb-babc-30093a02253b.png">
 
 # ➋ 実行
 1. まずブラウザから、以下のURLへアクセスします。
 > https://qiita.com/PoodleMaster
 
 1. 拡張機能のアイコンを押下します。
-<img width="600" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/405376/bbecb9d5-32ca-dc86-660c-076d2ba851c9.png">
+<img width="600" src="https://user-images.githubusercontent.com/69660581/141272948-f3c799a4-997c-4980-8fdf-2943d7c933e1.png">
 
 1. 記事のURL、題名、LGTMを取得し、一覧化できました😉！
-<img width="600" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/405376/3ce4cd07-7c54-db39-9267-b3111e8f7010.png">
+<img width="600" src="https://user-images.githubusercontent.com/69660581/141272959-b0e722d3-db2c-4999-b920-d742f28827f3.png">
