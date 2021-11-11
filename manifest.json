@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "author": "PoodleMaster",
+    "homepage_url": "https://qiita.com/PoodleMaster",
+    "name": "Qiita情報収集",
+    "description": "Qiitaから情報を収集します",
+    "version": "0.1",
+    "icons": {
+        "32": "icon-32x32.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://qiita.com/PoodleMaster"],
+        "js": ["script.js"]
+    }],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": "icon-32x32.png",
+        "default_title": "Qiita情報収集"
+    },
+    "permissions": [
+        "tabs",
+        "background"
+    ]
+}
