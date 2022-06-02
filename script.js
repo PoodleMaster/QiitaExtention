@@ -14,7 +14,7 @@ function qiita_getter() {
   var arrLgtm = ["LGTM"];   // 記事LGTM
 
   // 記事URLと記事題名収集
-  const docList10 = window.document.querySelectorAll("a.css-1j37wyh");
+  const docList10 = window.document.querySelectorAll("a.css-2p454n");
 //console.log(docList10);
   for( const item of docList10) {
     arrUrl.push(item.href);
@@ -26,7 +26,7 @@ function qiita_getter() {
   arrSub.splice(1, 3);
 
   // 記事LGTM収集
-  const docList20 = window.document.querySelectorAll("div.css-1laxd2k");
+  const docList20 = window.document.querySelectorAll("span.css-a4xrgo");
 //console.log(docList20);
   for( const item of docList20) {
     arrLgtm.push(item.innerText);
