@@ -1,8 +1,5 @@
-// script.js
-
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   if (request == "Action") {
-    console.log("script!!");
     qiita_getter();
   }
 });
@@ -14,8 +11,7 @@ function qiita_getter() {
   var arrLgtm = ["LGTM"];   // 記事LGTM
 
   // 記事URLと記事題名収集
-  const docList10 = window.document.querySelectorAll("a.css-2p454n");
-//console.log(docList10);
+  const docList10 = window.document.querySelectorAll("a.style-10d3113");
   for( const item of docList10) {
     arrUrl.push(item.href);
     arrSub.push(item.innerText);
@@ -26,8 +22,7 @@ function qiita_getter() {
   arrSub.splice(1, 3);
 
   // 記事LGTM収集
-  const docList20 = window.document.querySelectorAll("span.css-a4xrgo");
-//console.log(docList20);
+  const docList20 = window.document.querySelectorAll("span.style-mvmd7d");
   for( const item of docList20) {
     arrLgtm.push(item.innerText);
   }
